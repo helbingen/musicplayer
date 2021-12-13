@@ -1,0 +1,48 @@
+#container{
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    background-color:rgba(0, 131, 59, 0.7);
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 10px 7px black;
+    position: relative;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 10px 7px black;
+}
+
+.logo{
+    box-shadow: 0px 2px 10px 7px black;
+    margin-top: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#audio{
+    margin-top: 30%;
+    visibility: hidden;
+}
+
+#controls{
+    width: 100%;
+    position: absolute;
+    transform: translateY(-30%);
+}
+
+body{
+    background-image: url("./1680x1200.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.icon{
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
